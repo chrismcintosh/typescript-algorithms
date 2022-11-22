@@ -7,5 +7,9 @@ bst.insert(5)
 bst.insert(7)
 bst.insert(3)
 bst.insert(4)
+bst.insert(11)
+bst.insert(42)
 
-console.log(bst.root?.leftNode?.rightNode)
+
+
+console.log(bst.inOrderTraversal(bst.root))
